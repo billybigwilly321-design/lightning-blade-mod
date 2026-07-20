@@ -1,0 +1,1 @@
+pluginManagement {\n    repositories {\n        gradlePluginPortal()\n        maven { url = 'https://maven.neoforged.net/releases' }\n        maven { url = 'https://maven.fabricmc.net' }\n    }\n}\n\nrootProject.name = 'lightningblade'\n
