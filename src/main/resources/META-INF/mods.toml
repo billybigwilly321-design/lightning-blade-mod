@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="bigbilly"
+version="1.0.0"
+displayName="Lightning Blade Mod"
+displayURL="https://github.com/billybigwilly321-design/lightning-blade-mod"
+logoFile=""
+credits="Created by BigBilly"
+authors="BigBilly"
+description="A mod that adds the Lightning Blade - a sword that teleports you when you press R!"
+
+[[dependencies.bigbilly]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bigbilly]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
